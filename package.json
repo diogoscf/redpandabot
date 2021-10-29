@@ -1,0 +1,31 @@
+{
+  "name": "redpandabot",
+  "version": "1.0.0",
+  "description": "Red Panda Bot",
+  "homepage": "https://github.com/diogoscf/redpandabot",
+  "main": "bot.js",
+  "bugs": "https://github.com/diogoscf/redpandabot/issues",
+  "repository": "github:diogoscf/redpandabot",
+  "author": "diogoscf <diogo@diogos.cf> (https://diogos.cf)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "discord.js",
+    "discord"
+  ],
+  "scripts": {
+    "start": "node main.js",
+    "deploy": "node deploy-commads.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.8.1",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.0",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0"
+  }
+}
